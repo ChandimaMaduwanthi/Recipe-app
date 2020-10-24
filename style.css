@@ -5,4 +5,41 @@
 body{
     font-family: "Poppins",sans-serif;
     margin: 0;
+    background: #ece9e6;
+    background: linear-gradient(to right, #ffffff, #ece9e6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mobile-container{
+    background-color: white;
+    width: 500px;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header input{
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
