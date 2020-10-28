@@ -16,6 +16,9 @@ body{
 .mobile-container{
     background-color: white;
     width: 500px;
+    box-shadow: 0 0 10px 2px #3333331a;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 img{
@@ -42,4 +45,27 @@ header button{
     color: #aaa;
     font-size: 1.5rem;
     margin-left: 10px;
+}
+
+.fav-container{
+    background-color: rgb(216, 143, 250);
+    text-align: center;
+    padding: 1rem;
+}
+
+.fav-meals{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li{
+
+}
+
+.fav-meals li img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
 }
